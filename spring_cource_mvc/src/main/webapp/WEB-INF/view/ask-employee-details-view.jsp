@@ -24,6 +24,7 @@
     <form:errors path="surname"/>
     <br><br>
     Salary <form:input path="salary"/>
+    <form:errors path="salary"/>
     <br><br>
     Department <form:select path="department">
 <%--    <form:option value="Information Technology" label="IT"/>--%>
@@ -39,12 +40,22 @@
     <form:radiobutton path="carModel" value="MB"/>Mercedes Benz
     <%--    <form:radiobuttons path="carModel" items="${employee.carBrands}"/>--%>
     <br><br>
+    <form:errors path="carModel"/>
+    <br><br>
     Foreign language(s)
     <br><br>
 <%--    EN <form:checkbox path="languages" value="English"/>--%>
 <%--    FR <form:checkbox path="languages" value="Franch"/>--%>
 <%--    DE <form:checkbox path="languages" value="Deutch"/>--%>
     <form:checkboxes path="languages" items="${employee.languageList}"/>
+    <br><br>
+    <form:errors path="languages"/>
+    <br><br>
+    Phone number:<form:input path="phoneNumber"/>
+    <form:errors path="phoneNumber"/>
+    <br><br>
+    Email:<form:input path="email"/>
+    <form:errors path="email"/>
     <br><br>
     <input type="submit" value="Ok"/><input type="reset" value="Reset"/>
 </form:form>

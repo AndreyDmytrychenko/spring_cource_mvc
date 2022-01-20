@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/com.andreydm.spring.mvc.iml" filepath="$PROJECT_DIR$/.idea/com.andreydm.spring.mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_cource_mvc/spring_cource_mvc.iml" filepath="$PROJECT_DIR$/spring_cource_mvc/spring_cource_mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring_cource_mvc_.iml" filepath="$PROJECT_DIR$/.idea/spring_cource_mvc_.iml" />
     </modules>
   </component>
 </project>
